@@ -1,17 +1,16 @@
 {% extends "layout.html" %}
 
-
 {% block body %}
 
-{% if name %}
+ {% if name %}
 
-  You are logged as in {{ name }}. 
+   You are logged as in {{ name }}. 
 
-{% else %}
-  You are not logged in.
+ {% else %}
+
+   You are not logged in.
   
-{% endif %}
+ {% endif %}
  
-
 
 {% endblock %}
